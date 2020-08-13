@@ -25,11 +25,11 @@ private:
         return dp[i][j] = exculding+including;
     }
 public:
-    int getDistinctSubsequences(string a, string b) {
-        int m = a.size();
-        int n = b.size();
+    int numDistinct(string s, string t) {
+        int m = s.size();
+        int n = t.size();
         vector<vector<int>>dp(m, vector<int>(n, -1));
-        return getAnswer(0, a, 0, b, dp);
+        return getAnswer(0, s, 0, t, dp);
     }
 };
 
