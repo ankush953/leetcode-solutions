@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/longest-palindromic-substring/
+// space O(n*n)
+// time O(n*n)
+
 class Solution
 {
 
